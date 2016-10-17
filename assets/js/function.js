@@ -1,17 +1,17 @@
 $(document).ready(function(){
   //startHome();
   headerNav();
-  startHeader();
+  //startHeader();
 });
 
-function startHeader(){
+/*function startHeader(){
   var arr = ['.nav-home','.nav-service','.nav-about','.nav-contact'];
   $.each(arr, function(i){
     setTimeout(function(){
       $(arr[i]).addClass('show')
     },i*200)
   })
-}
+}*/
 
 function headerNav(){
   $('.find-nav-bar').hover(function(){
