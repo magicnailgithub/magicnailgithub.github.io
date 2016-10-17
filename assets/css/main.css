@@ -1560,10 +1560,14 @@ section.service {
             @media (max-width: 640px) {
               section.service .flex .left-service .service-content .content-s .price-list {
                 width: 60%; } }
+          section.service .flex .left-service .service-content .content-s .ps-note {
+            margin-top: 10px; }
+            section.service .flex .left-service .service-content .content-s .ps-note p {
+              font-size: 14px; }
           @media (max-width: 640px) {
             section.service .flex .left-service .service-content .content-s h1 {
               font-size: 50px;
-              margin-bottom: 10px; }
+              margin-bottom: 0px; }
             section.service .flex .left-service .service-content .content-s p {
               font-size: 14px; }
             section.service .flex .left-service .service-content .content-s h3 {
